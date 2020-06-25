@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 40px 10%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.main-heading {
+  font-size: 40px;
+  border-bottom: silver solid 2px;
+  padding-bottom: 10px;
+}
+

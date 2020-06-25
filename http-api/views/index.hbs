@@ -1,0 +1,15 @@
+<h1 class="main-heading">{{title}}</h1>
+<h2 class="input-heading">Введите ссылку на альбом vk в поле ниже:</h2>
+<label class="text-label" for="albumInput">
+    <input id="albumInput" class="album-input" type="text" placeholder="https://vk.com/album-181301011_263623964">
+    <input class="download-button" id="downloadButton" type="button" value="Скачать">
+</label>
+<div id="bar" class="progress-bar hide">
+    <div id="barScale" class="inner-bar"></div>
+    <p id="progressText" class="progress">0%</p>
+</div>
+
+
+<script src="/javascripts/vk.js"></script>
+<script src="/javascripts/jszip.js"></script>
+<script src="/javascripts/file-saver/dist/FileSaver.js"></script>
