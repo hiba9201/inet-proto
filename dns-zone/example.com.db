@@ -1,0 +1,16 @@
+$TTL 1d
+
+@           SOA       ns1.example.com. admin.example.com. (1 1w 1d 4w 1d)
+
+@           NS        ns1
+@           NS        ns2
+
+@           MX        mx
+
+ns1         A         10.10.10.10
+ns2         A         10.10.10.11
+mx          A         10.10.10.12
+@           A         10.10.10.13
+site1       A         13.13.13.13
+
+www         CNAME     example.com.
